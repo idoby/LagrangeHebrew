@@ -7,9 +7,9 @@ disqus:
 google-ID: 'UA-112060364-1'
 
 menu:
-- {name: 'About',   url: 'about.html'}
-- {name: 'Writing', url: 'writing.html'}
-- {name: 'Contact', url: 'contact.html'}
+- {name: 'אודות',   url: 'about.html'}
+- {name: 'כתיבה', url: 'writing.html'}
+- {name: 'צרו קשר', url: 'contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
@@ -22,11 +22,11 @@ social:
 
 # Customize site text
 pagination:
-  next_page: 'Newer'
-  previous_page: 'Older'
+  next_page: 'חדש יותר'
+  previous_page: 'ישן יותר'
 
-sharing_button_prompt: 'Feel free to share!'
+sharing_button_prompt: 'הרגישו חופשי לשתף!'
 
-related_posts: 'You may also enjoy:'
+related_posts: 'אולי תאהבו גם את:'
 
-post_date_prefix: 'Written on'
+post_date_prefix: 'נכתב ב-'
