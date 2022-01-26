@@ -1,20 +1,20 @@
 {% if post.layout != post %}
   {% assign words = post.content | strip_html | number_of_words %}
   {% if words < 180 %}
-    less than 1 minute read
+    קריאה של פחות מדקה
   {% elsif words < 360 %}
-    1 minute read
+    בערך דקת קריאה
   {% else %}
-    {{ words | divided_by:180 }} minute read
+    {{ words | divided_by:180 }} דקות קריאה
   {% endif %}
 {% endif %}
 {% if post.layout == post %}
   {% assign words = content | number_of_words %}
   {% if words < 180 %}
-    less than 1 minute read
+    קריאה של פחות מדקה
   {% elsif words < 360 %}
-    1 minute read
+    בערך דקת קריאה
   {% else %}
-    {{ words | divided_by:180 }} minute read
+    {{ words | divided_by:180 }} דקות קריאה
   {% endif %}
 {% endif %}
